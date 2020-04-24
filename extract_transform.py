@@ -29,7 +29,7 @@ tables = [travel_data1819, london1_df]
 combined_travel = pd.concat(tables, axis=0, join='outer', ignore_index=True,copy=True)
 
 #SQLAlchemy to set up an SQL DataBase connection to PSQL
-engine = sqlalchemy.create_engine(f'postgresql+psycopg2://{user}:{pas}@5432/london_trips')
+engine = sqlalchemy.create_engine(f'postgresql+psycopg2://{user}:{pas}@127.0.0.1:5432/london_trips')
 
 #Send the tables that were created in pandas to an SQL DB
 combined_travel.to_sql("local_london",
