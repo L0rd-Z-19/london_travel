@@ -1,0 +1,148 @@
+.dataframe{
+    margin-right: auto;
+    margin-left: auto;
+}
+table{
+    border: solid 1px;
+}
+footer{
+    text-align: center;
+    margin-bottom: 0;
+}
+
+hr{
+    width: 600px;
+}
+
+section{
+    background-color: rgb(169, 218, 250);
+    width: 1550px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom:10px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+iframe{
+    width: 1510px;
+    height: 800px;
+}
+
+.dropbtn {
+    background-color:darkgray;    
+    color:lightgray;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    min-width: 160px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+@media screen and (max-width: 420px) {
+    #plots{
+        width: 200px;
+        height: 100px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    footer{
+        text-align: center;
+        margin-bottom: 0;
+    }  
+
+    #hover_link{
+        display:none;
+    }
+
+    div.dropdown-content {
+        display: block;
+    }
+
+    hr{
+        width: 100%;
+    }
+
+    section{
+        background-color: rgb(169, 218, 250);
+        width: 100%;
+        height: auto;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    iframe{
+        width: auto;
+        height: auto;
+    }
+    #plots{
+        width: 100%;
+        height: auto;
+    }
+    img{
+        width: 100%;
+        height: auto;
+    }
+
+    p{
+        width: 100%;
+        height: auto;
+    }
+
+}
+@media screen and (max-width: 2000px) {
+    iframe{
+        width: 100%; 
+        height: 900px; 
+    }
+    #plots{
+        width: 500px;
+        height: 400px;
+    }
+}
+@media screen and (max-width: 1080px) {
+    footer{
+        text-align: center;
+        margin-bottom: 0;
+    }   
+    #plots{
+        width: 400px;
+        height: 300px;
+    }
+    hr{
+        width: 100%;
+    }
+
+    section{
+        background-color: rgb(169, 218, 250);
+        width: 100%;
+        height: auto;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    iframe{
+        width: 100%;
+        height: 600px;
+    }
+
+    img{
+        width: 100%;
+        height: auto;
+    }
+
+    p{
+        width: 100%;
+        height: auto;
+    }
+}
